@@ -1,0 +1,182 @@
+/* Global Styles */
+body {
+    background-image: url('../foto/pol.jpg');
+    background-color: #cccccc;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(90deg, rgb(219, 219, 219) 0%, rgb(190, 196, 197) 50%, rgb(109, 117, 121) 100%);
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li:last-child {
+    margin-right: 0;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Search Styles */
+.search {
+    background: linear-gradient(90deg, rgba(0, 194, 177, 1) 0%, rgba(0, 147, 162, 1) 50%, rgba(0, 94, 145, 1) 100%);
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.search .container {
+    text-align: left;
+}
+
+.search input[type="text"],
+.search button[type="submit"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search input[type="text"] {
+    width: 70%;
+}
+
+.search button[type="submit"] {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search button[type="submit"]:hover {
+    background-color: #ddd;
+}
+
+/* Section Styles */
+.section {
+    padding: 40px 0;
+}
+
+/* Box Styles */
+.box {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.568);
+    margin-bottom: 20px;
+}
+
+/* Table Styles */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-decoration: none; /* Tidak menampilkan garis bawah */
+}
+
+.btn.edit {
+    background-color: #ffc107;
+    color: #fff;
+}
+
+.btn.hapus {
+    background-color: #d9534f;
+    color: #fff;
+}
+
+.btn.tambah {
+    background-color: #cc00ff; /* Warna biru */
+    color: #fff;
+}
+
+.btn.tambah:hover {
+    background-color: #b30095; /* Warna biru yang lebih gelap saat dihover */
+}
+
+.btn.edit:hover {
+    background-color: #27d57e; /* Warna kuning saat dihover */
+}
+
+.btn.hapus:hover {
+    background-color: #520177; /* Warna merah saat dihover */
+}
+
+/* Tambahan CSS untuk tombol aksi */
+.aksi-buttons {
+    display: flex;
+}
+
+.aksi-buttons .btn {
+    margin-right: 5px;
+}
